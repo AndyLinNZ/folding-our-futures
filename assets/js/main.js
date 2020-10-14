@@ -1,8 +1,4 @@
 /**
-* Template Name: BizPage - v3.1.0
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 * Edited by: Andy Lin 2020
 */
 (function($) {
@@ -169,7 +165,7 @@
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Workshop isotope and filter
   var workshopIsotope = $('.workshop-container').isotope({
     itemSelector: '.workshop-item',
     layoutMode: 'fitRows'
@@ -185,7 +181,7 @@
     aos_init();
   });
 
-  // Initiate venobox (lightbox feature used in portofilo)
+  // Initiate venobox (lightbox feature used in workshop)
   $(document).ready(function() {
     $('.venobox').venobox();
   });
