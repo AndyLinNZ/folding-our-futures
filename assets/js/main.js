@@ -193,13 +193,6 @@
     items: 1
   });
 
-  // workshop details carousel
-  $(".workshop-details-carousel").owlCarousel({
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
   // Init AOS
   function aos_init() {
     AOS.init({
