@@ -373,22 +373,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  #intro h2 {
-    font-size: 28px;
-  }
-
-  #intro p {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1024px) {
-  #intro p {
-    width: 60%;
-  }
-}
-
 #intro .carousel-fade {
   overflow: hidden;
 }
@@ -455,6 +439,36 @@ h1, h2, h3, h4, h5, h6 {
 #intro .btn-get-started:hover {
   background: #fff;
   color:#d11b85;
+}
+
+@media (min-width: 1024px) {
+  #intro p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #intro p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 520px) {
+  #intro h2 {
+    font-size: 18px;
+  }
+
+  #intro p {
+    font-size: 10px;
+  }
+
+  #intro .btn-get-started {
+    font-size: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -878,6 +892,7 @@ section {
   opacity: 0.4;
   transition: 0.3s;
 }
+
 
 #workshop .workshop-item figure .link-preview, #workshop .workshop-item figure .link-details {
   position: absolute;
