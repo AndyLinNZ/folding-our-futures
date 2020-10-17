@@ -459,15 +459,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 520px) {
   #intro h2 {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   #intro p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   #intro .btn-get-started {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 

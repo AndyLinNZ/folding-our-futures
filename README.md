@@ -1,6 +1,6 @@
 # Folding our Futures Website
 
-Visit: https://andylinnz.github.io/folding-our-futures/
+Visit: foldingourfutures.org
 
-## Updated 15/10/2020
+## Updated 17/10/2020
 
